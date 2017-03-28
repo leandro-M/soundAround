@@ -1,0 +1,53 @@
+.playlist {
+    background-image: url('../img/avantasia.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+    > .box {
+        width: calc(100% - 2rem);
+        padding: 1.5rem 0rem;
+        margin: 0 auto;
+
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        z-index: 2;
+
+        position: relative;
+
+        > .item {
+            width: 30%;
+            margin-bottom: 1rem;
+
+            > .photo {
+                width: 100%;
+                height: 90px;
+
+                > .image {
+                    width: 100%;
+                    height: 100%;
+
+                    object-fit: cover;
+                }
+            }
+
+            > .description {
+                padding: 0.3rem;
+                text-align: center;
+
+                background: #fff;
+
+                border-top: 5px;
+                border-color: rgba(#000,0.5);
+
+                > .name {
+                    font-family: $poppinsR;
+                    font-size: 0.7rem;
+                }
+            }
+        }
+    }
+}
