@@ -1,7 +1,6 @@
 {
   "name": "SoundAround",
   "short_name": "SoundAround",
-  "start_url": "/?start_url=homescreenicon",
   "display": "standalone",
   "orientation": "portrait",
   "background_color": "#333",
