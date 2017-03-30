@@ -5,46 +5,21 @@ var pagesInteration = {
     },
 
     initialPage: function() {
-        $.ajax({
-            type: 'POST',
-            url: root + 'pages/home.html',
 
-            error: function () {
-                alert('error');
-            },
-            beforeSend: function () {
-            },
-            success: function (retorno) {
-                $('.section-default').html(retorno);
-
-                setTimeout(function() {
-                    $('.pages-default').removeClass('hidden');
-                },100);
-            }
-        });
     },
 
     getPages: function() {
+        var $target = $(this).attr('data-target');
 
-        var target = $(this).attr('data-target');
+        var left = $(this).attr('data-teta');
+        $('.wrap-pages').css('left', left);
 
-        $.ajax({
-			type: 'POST',
-			url: root + 'pages/' + target,
-
-			error: function () {
-				alert('error');
-			},
-			beforeSend: function () {
-			},
-			success: function (retorno) {
-                $('.section-default').html(retorno);
-
-                setTimeout(function() {
-                    $('.pages-default').removeClass('hidden');
-                },100);
-			}
-		});
+        // $('.item-menu').each(function(i, value){
+        //     console.log(value);
+        //
+        //     var target = $(value).attr('data-target')
+        //     $(value).
+        // });
     },
 
     ready: function() {

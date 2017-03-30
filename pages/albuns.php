@@ -1,4 +1,4 @@
-<article class="playlist pages-default hidden">
+<article class="albuns pages-default">
 
     <h2 class="title-article">Suas playlists</h2>
 

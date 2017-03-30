@@ -1,8 +1,8 @@
-<article class="home pages-default hidden">
+<article class="home pages-default">
     <h2 class="title-article">Mais ouvidas da semana</h2>
 
     <div class="box">
-        <div class="item">
+        <div class="item" data-class="cover" data-src="dist/img/avantasia.jpg">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -17,7 +17,7 @@
             </button>
         </div>
 
-        <div class="item">
+        <div class="item" data-class="cover">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -32,7 +32,7 @@
             </button>
         </div>
 
-        <div class="item">
+        <div class="item" data-class="cover">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -47,7 +47,7 @@
             </button>
         </div>
 
-        <div class="item">
+        <div class="item" data-class="cover">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -62,7 +62,7 @@
             </button>
         </div>
 
-        <div class="item">
+        <div class="item" data-class="cover">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -78,7 +78,7 @@
         </div>
 
 
-        <div class="item">
+        <div class="item" data-class="cover">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -93,7 +93,7 @@
             </button>
         </div>
 
-        <div class="item">
+        <div class="item" data-class="cover">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -108,7 +108,7 @@
             </button>
         </div>
 
-        <div class="item">
+        <div class="item" data-class="cover">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -124,3 +124,6 @@
         </div>
     </div>
 </article>
+
+
+<script src="dist/js/home/setCover.js"></script>

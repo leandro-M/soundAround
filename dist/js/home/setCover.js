@@ -1,0 +1,1 @@
+var homeSetCover={getCover:function(){var e=$(this).attr("data-src");console.log(root+e),$(".home").css("background-image","url("+root+e+")")},ready:function(){$('[data-class="cover"]').click(homeSetCover.getCover)}};$(document).ready(homeSetCover.ready);

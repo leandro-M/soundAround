@@ -12,9 +12,10 @@
 
         <link rel="manifest" href="dist/js/manifest.json">
 
-        <script type="text/javascript"> 
+        <script type="text/javascript">
             const root = window.location.href;
         </script>
+        <script src="dist/js/jquery.min.js"></script>
     </head>
     <body>
         <header class="header">
@@ -41,21 +42,21 @@
                 <nav class="top-menu">
                     <ul class="wrap">
                         <span class="sublinhed"></span>
-                        <li class="item active" data-class="itemTopMenu" data-target="home.html">
+                        <li class="item active item-menu" data-class="itemTopMenu" data-target=".home" data-teta="0">
                             <button type="button" class="link btn-cleared">
                                 Home
                             </button>
                         </li>
 
-                        <li class="item" data-class="itemTopMenu" data-target="playlist.html">
+                        <li class="item item-menu" data-class="itemTopMenu" data-target=".albuns" data-teta="-100vw">
                             <button type="button" class="link btn-cleared">
-                                Playlists
+                                Albuns
                             </button>
                         </li>
 
-                        <li class="item" data-class="itemTopMenu" data-target="explorer.html">
+                        <li class="item item-menu" data-class="itemTopMenu" data-target=".profile" data-teta="-200vw">
                             <button type="button" class="link btn-cleared">
-                                Explorar
+                                Profile
                             </button>
                         </li>
                     </ul>
@@ -64,12 +65,17 @@
         </header>
 
         <section class="section-default">
-            <!-- Aqui será incluido as páginas -->
+            <div class="wrap wrap-pages">
+                <!-- Aqui será incluido as páginas -->
+                <?php include('pages/home.php');?>
+                <?php include('pages/albuns.php');?>
+                <?php include('pages/profile.php');?>
+                <!-- Fim das páginas incluidas -->
+            </div>
         </section>
     </body>
 </html>
 
 
-<script src="dist/js/jquery.min.js"></script>
 <script src="dist/js/default/interationMenu.js"></script>
 <script src="dist/js/default/interationPages.js"></script>
