@@ -71,6 +71,9 @@
                 <?php include('pages/albuns.php');?>
                 <?php include('pages/profile.php');?>
                 <!-- Fim das páginas incluidas -->
+
+                <!--  Player -->
+                <?php include('pages/player.php');?>
             </div>
         </section>
     </body>

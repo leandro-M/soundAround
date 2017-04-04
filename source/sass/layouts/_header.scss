@@ -65,7 +65,7 @@
 
                     &.active {
                         > .link {
-                            font-size: 1rem;
+                            color: $secondary;
                             transition: 0.3s;
                         }
                     }

@@ -17,7 +17,7 @@
             </button>
         </div>
 
-        <div class="item" data-class="cover">
+        <div class="item" data-class="cover" src="">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -32,7 +32,7 @@
             </button>
         </div>
 
-        <div class="item" data-class="cover">
+        <div class="item" data-class="cover" src="">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -47,7 +47,7 @@
             </button>
         </div>
 
-        <div class="item" data-class="cover">
+        <div class="item" data-class="cover" src="">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -62,7 +62,7 @@
             </button>
         </div>
 
-        <div class="item" data-class="cover">
+        <div class="item" data-class="cover" src="">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -78,7 +78,7 @@
         </div>
 
 
-        <div class="item" data-class="cover">
+        <div class="item" data-class="cover" src="">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -93,7 +93,7 @@
             </button>
         </div>
 
-        <div class="item" data-class="cover">
+        <div class="item" data-class="cover" src="">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
@@ -108,7 +108,7 @@
             </button>
         </div>
 
-        <div class="item" data-class="cover">
+        <div class="item" data-class="cover" src="">
             <figure class="photo">
                 <img class="image" src="dist/img/avantasia.jpg" alt="">
             </figure>
