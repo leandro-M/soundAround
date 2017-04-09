@@ -1,1 +1,0 @@
-var pagesInteration={loader:function(){},initialPage:function(){},getPages:function(){var a=($(this).attr("data-target"),$(this).attr("data-teta"));$(".wrap-pages").css("left",a)},ready:function(){$('[data-class="itemTopMenu"]').click(pagesInteration.getPages),pagesInteration.initialPage(),pagesInteration.loader()}};$(document).ready(pagesInteration.ready);

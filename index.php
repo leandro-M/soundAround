@@ -13,9 +13,8 @@
         <link rel="manifest" href="dist/js/manifest.json">
 
         <script type="text/javascript">
-            const root = window.location.href;
+            const path = window.location.href;
         </script>
-        <script src="dist/js/jquery.min.js"></script>
     </head>
     <body>
         <header class="header">
@@ -42,19 +41,19 @@
                 <nav class="top-menu">
                     <ul class="wrap">
                         <span class="sublinhed"></span>
-                        <li class="item active item-menu" data-class="itemTopMenu" data-target=".home" data-teta="0">
+                        <li class="item active item-menu" data-class="itemTopMenu" data-target=".home" data-left="0">
                             <button type="button" class="link btn-cleared">
                                 Home
                             </button>
                         </li>
 
-                        <li class="item item-menu" data-class="itemTopMenu" data-target=".albuns" data-teta="-100vw">
+                        <li class="item item-menu" data-class="itemTopMenu" data-target=".albuns" data-left="-100vw">
                             <button type="button" class="link btn-cleared">
                                 Albuns
                             </button>
                         </li>
 
-                        <li class="item item-menu" data-class="itemTopMenu" data-target=".profile" data-teta="-200vw">
+                        <li class="item item-menu" data-class="itemTopMenu" data-target=".profile" data-left="-200vw">
                             <button type="button" class="link btn-cleared">
                                 Profile
                             </button>
@@ -79,6 +78,7 @@
     </body>
 </html>
 
+<script src="dist/js/libs/jQuery/jquery.min.js"></script>
+<script src="dist/js/libs/jQueryMobile/jquery.mobile-1.4.5.min.js"></script>
 
-<script src="dist/js/default/interationMenu.js"></script>
-<script src="dist/js/default/interationPages.js"></script>
+<script src="dist/js/default/global.js"></script>

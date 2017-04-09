@@ -124,6 +124,3 @@
         </div>
     </div>
 </article>
-
-
-<script src="dist/js/home/setCover.js"></script>
