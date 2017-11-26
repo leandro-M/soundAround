@@ -16,7 +16,7 @@
         </div>
     </div>
 
-    <h2 class="title-article">Mais ouvidas da semana</h2>
+    <h2 class="title-article">Suas músicas</h2>
 
     <div class="box">
         <div class="item" data-class="cover" data-src="dist/img/avantasia.jpg">

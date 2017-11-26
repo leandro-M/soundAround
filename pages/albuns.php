@@ -1,6 +1,6 @@
 <article class="albuns pages-default">
 
-    <h2 class="title-article">Suas playlists</h2>
+    <h2 class="title-article">Seus albuns</h2>
 
     <div class="box">
         <div class="item">
