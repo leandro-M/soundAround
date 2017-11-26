@@ -67,6 +67,36 @@ var globalFunctions = {
         }
     },
 
+
+    // Função para abrir o menu
+    openMenu: function() {
+        $('.side-menu').toggleClass('open');
+    },
+
+    //função para fechar o menu
+    closeMenu: function() {
+        $('.side-menu .overlay').click(function(e) {
+            globalFunctions.openMenu();
+        });
+    },
+
+    //função para abrir os dropdown
+
+    dropdown: function() {
+        $('.btn-dropdown').click(function() {
+            $('.dropdown').removeClass('open');
+            var target = $(this).find('.dropdown');
+
+            if($(this).hasClass('active')) {
+                $(this).removeClass('active');
+                target.removeClass('open');
+            } else {
+                target.addClass('open');
+                $(this).addClass('active');
+            }
+        });
+    },
+
     ready: function() {
         //Click do menu do topo e setar a posição da sub-linha
         $('[data-class="itemTopMenu"]').click(globalFunctions.setPosLeft);
@@ -89,6 +119,15 @@ var globalFunctions = {
 
         //Click dos items e setar backgrounds
         $('[data-class="cover"]').click(globalFunctions.getCover);
+
+        //click para abrir o menu
+        $('[data-class="open-menu"]').click(globalFunctions.openMenu);
+
+        //Função para fechar o menu
+        globalFunctions.closeMenu();
+
+        //Função dropdown
+        globalFunctions.dropdown();
     }
 }
 

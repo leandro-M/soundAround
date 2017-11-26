@@ -3,6 +3,47 @@
 
     background-image: url('../img/desert.jpg');
 
+    > .top {
+        z-index: 3;
+
+        position: relative;
+
+        width: 85%;
+        margin: 2rem auto;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        > .box {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+
+            > .icon {
+                font-size: 1.3rem;
+                color: #fff;
+            }
+
+            > .description {
+                font-family: $poppinsR;
+                font-size: 0.8rem;
+                line-height: 0;
+                margin-top: 1rem;
+                
+                br {
+                    line-height: 1.5;
+                }
+            }
+
+            &:nth-child(2) {
+                > .icon {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+
     > .box {
         width: calc(100% - 2rem);
         margin: 0 auto;
@@ -17,7 +58,7 @@
             margin-bottom: 2rem;
 
             cursor: pointer;
-            
+
             display: flex;
 
             flex-direction: row;

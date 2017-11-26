@@ -1,0 +1,41 @@
+.btn-dropdown {
+    position: relative;
+
+    > .dropdown {
+        position: absolute;
+        top: 0;
+        right: 15px;
+        width: 85vw;
+
+        background: #fff;
+        box-shadow: 2px 2px 1px 1px rgba(#000, 0.5);
+
+        z-index: 3;
+        opacity: 0;
+        visibility: hidden;
+
+        transition: 0.3s;
+
+        &.open {
+            opacity: 1;
+            visibility: visible;
+            transition: 0.3s;
+        }
+
+        > .item {
+            padding: 10px 30px;
+            display: flex;
+            border-bottom: 1px solid rgba(#333,0.2);
+
+            &:last-child {
+                border: none;
+            }
+
+            > .link {
+                color: #333;
+                font-size: 0.8rem;
+                text-decoration: none;
+            }
+        }
+    }
+}

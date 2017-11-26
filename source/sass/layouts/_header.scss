@@ -63,13 +63,6 @@
                     width: 33.33%;
                     cursor: pointer;
 
-                    &.active {
-                        > .link {
-                            color: $secondary;
-                            transition: 0.3s;
-                        }
-                    }
-
                     > .link {
                         font-family: $poppinsR;
 

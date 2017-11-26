@@ -1,5 +1,4 @@
 <div class="player-bottom">
-
     <button type="button" name="button" class="btn-cleared btn-play">
         <i class="ion-play"></i>
     </button>
@@ -14,6 +13,6 @@
 
     <div class="description">
         <p class="title">The Seven Angels</p>
-        <p class="artist">Avantasia</p>
+        <p class="artist">Avantasia - The Metal Opera Pt. II</p>
     </div>
 </div>

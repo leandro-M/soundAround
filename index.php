@@ -17,11 +17,14 @@
         </script>
     </head>
     <body>
+        <!-- Menu default -->
+        <?php include('pages/elements/menu.php');?>
+
         <header class="header">
 
             <div class="top">
                 <div class="left">
-                    <button type="button" class="btn-cleared">
+                    <button type="button" class="btn-cleared" data-class="open-menu">
                         <i class="ion-android-menu"></i>
                     </button>
                 </div>
@@ -72,7 +75,7 @@
                 <!-- Fim das páginas incluidas -->
 
                 <!--  Player -->
-                <?php include('pages/player.php');?>
+                <?php include('pages/elements/player.php');?>
             </div>
         </section>
     </body>
