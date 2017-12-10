@@ -82,6 +82,8 @@
 </html>
 
 <script src="dist/js/libs/jQuery/jquery.min.js"></script>
-<script src="dist/js/libs/jQueryMobile/jquery.mobile-1.4.5.min.js"></script>
 
 <script src="dist/js/default/global.js"></script>
+<script src="dist/js/pages/home.js"></script>
+<script src="dist/js/pages/albums.js"></script>
+<script src="dist/js/pages/profile.js"></script>
