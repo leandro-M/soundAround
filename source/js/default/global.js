@@ -1,3 +1,9 @@
+const endpoints = {
+    profileService: 'http://127.0.0.1:8000/api/users',
+    mySongsService: 'http://127.0.0.1:3000/api/songs',
+    albumsService: 'http://127.0.0.1:7050/albums'
+};
+
 var globalFunctions = {
 
     //Função para mover a linha vermelha do menu
@@ -59,11 +65,11 @@ var globalFunctions = {
     getCover: function() {
         var src = $(this).attr('data-src');
 
-        if(src){
-            $('.home').css('background-image', 'url('+path+src+')');
+        if (src) {
+            $('.home').css('background-image', 'url(' + path + src + ')');
         } else {
             src = "dist/img/desert.jpg";
-            $('.home').css('background-image', 'url('+path+src+')');
+            $('.home').css('background-image', 'url(' + path + src + ')');
         }
     },
 
@@ -87,7 +93,7 @@ var globalFunctions = {
             $('.dropdown').removeClass('open');
             var target = $(this).find('.dropdown');
 
-            if($(this).hasClass('active')) {
+            if ($(this).hasClass('active')) {
                 $(this).removeClass('active');
                 target.removeClass('open');
             } else {
